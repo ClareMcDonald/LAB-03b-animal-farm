@@ -8,6 +8,13 @@ body {
 
 main {
     padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+
+    object-fit: cover
 }
 
 header {
@@ -32,4 +39,9 @@ h1 {
 footer {
     background-color: #FAF0EA;
     padding: 10px;
+}
+
+img {
+    width: auto;
+    height: 200px;
 }
